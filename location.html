@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color: #E1BFB8">
+
+<p>CLICK ON THE BUTTTON TO SEND YOUR LOCATION TO THE NEAR BY POLICE STATION.</p>
+
+<button onclick="getLocation()" style="background-color: red">HELP ME!</button>
+
+<p id="demo"></p>
+
+<script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else { 
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude + 
+  "<br>Longitude: " + position.coords.longitude + "<br> your location and help message has been sent to a near by police station please stay calm as help arrives in a moment.";
+}
+</script>
+
+</body>
+</html>
