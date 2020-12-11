@@ -1,0 +1,2 @@
+# Rescuers
+This website is for any one who has been a victim of GBV, who wants to be secured and protected from GPV and for those being affected by GBV. We developed a plat form to send alerts in times of emergencies, get consultancy from psychiatrist after a traumatizing incident of gender violence, get access to health institutes to ensure their wellbeing and let them be the future of our world as they keep on contributing to the world without security being a problem.
